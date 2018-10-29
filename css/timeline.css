@@ -152,3 +152,17 @@
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+/* media queries*/
+
+@media screen and (max-width: 468px) {
+
+  .timeline > li > .timeline-panel {
+    width: 100%;
+  }
+
+  .timeline:before,
+  .timeline > li > .timeline-badge {
+    visibility: hidden;
+  }
+}
