@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UI Design</title>
+
+	<link rel="stylesheet" type="text/css" href="css/uidesign.css">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+	<div class="container">		
+		<a href="index.html"><button class="btn btn-primary btn-xl">BACK</button></a>
+	</div>
+
+	<div class="container">
+        <div class="normal"><a href="img/web1.jpg"><img src="img/web1.jpg"/></a></div>
+     	<div  class="big"><a href="img/coastal.jpg"><img src="img/coastal.jpg"/></a></div>
+        <div class="big"><a href="img/cacti.jpg"><img src="img/cacti.jpg"/></a></div>
+        <div class="normal"><a href="img/muirwoods.jpg"><img src="img/muirwoods.jpg" /></a></div>
+        <div class="normal"><a href="img/musicapp.jpg"><img src="img/musicapp.jpg"/></a></div>
+        <div class="normal"><a href="img/travelapp.jpg"><img src="img/travelapp.jpg"/></a></div>
+        <div class="normal"><a href="img/tracker.png"><img src="img/tracker.png"/></a></div>
+        <div class="normal"><a href="img/WebInterface.jpg"><img src="img/WebInterface.jpg"/></a></div>
+        <div class="normal"><a href="img/liwalize-mockup-web-design.jpg"><img src="img/liwalize-mockup-web-design.jpg"/></a></div>
+     </div>
+
+
+     <!-- Scroll to Top Button-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+</body>
+</html>
